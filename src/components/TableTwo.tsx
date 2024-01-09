@@ -5,7 +5,7 @@ import { inchToPixel, calculateSheets } from "../utils/helpers";
 
 const SheetSize = { width: inchToPixel(20), height: inchToPixel(40) };
 const BlockSize = { width: inchToPixel(3), height: inchToPixel(4.5) };
-const TotalBlocks = 50;
+const TotalBlocks = 70;
 
 const TableTwo: React.FC = () => {
     const { blocksPerSheet, totalSheets } = calculateSheets(SheetSize, BlockSize, TotalBlocks);

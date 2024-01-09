@@ -16,6 +16,10 @@ jobs:
                   npm install
                   npm run build
 
+            - name: Debug 🐞
+              run: |
+                  ls -R /home/runner/work/test-app/test-app
+
             - name: Deploy 🚀
               uses: JamesIves/github-pages-deploy-action@4.1.0
               with:

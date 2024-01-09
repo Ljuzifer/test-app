@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
 import TableOne from "./components/TableOne";
 import TableTwo from "./components/TableTwo";
 import TableThree from "./components/TableThree";
 import { GlobalStyle } from "./GlobalStyle";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
     return (

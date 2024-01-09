@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import TableOne from "./components/TableOne";
+import TableTwo from "./components/TableTwo";
+import TableThree from "./components/TableThree";
+import { GlobalStyle } from "./GlobalStyle";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <header className="App-header">
+                <img src={logo} className="App-logo" alt="logo" />
+            </header>
+            <TableOne />
+            <TableTwo />
+            <TableThree />
+
+            <GlobalStyle />
+        </div>
+    );
 }
 
 export default App;
